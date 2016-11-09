@@ -1,0 +1,8 @@
+# docker compose d'aggregation
+version: '2'
+
+services:
+    framadate-core:
+        extends:
+            file: framadate/docker-compose.framadate.yml
+            service: core
